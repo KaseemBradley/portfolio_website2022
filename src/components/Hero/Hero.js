@@ -18,8 +18,8 @@ const Hero = (props) => (
           Personal Portfolio
         </SectionTitle>
         <SectionText>
-          This portfolio was built to show my desire to solve complex challenges
-          and build purposeful systems using innovative Technologies.
+          This portfolio was built to display my desire to solve complex
+          challenges and build purposeful systems using innovative technologies.
         </SectionText>
         <Link href="#about">
           <Button onClick={props.handleClick}>Learn More</Button>
