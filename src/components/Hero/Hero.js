@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import {
   Section,
@@ -21,7 +22,9 @@ const Hero = (props) => (
           developers to take their development skills to the next level and
           build awesome apps.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Link href="#about">
+          <Button onClick={props.handleClick}>Learn More</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>
